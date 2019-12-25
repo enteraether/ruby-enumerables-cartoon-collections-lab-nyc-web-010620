@@ -24,3 +24,4 @@ def find_the_cheese(array)
   array.find do |i| #is this what is splitting up the array to the individ index positions?
   cheese_types.include?(i)
 end
+end
