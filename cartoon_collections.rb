@@ -19,7 +19,8 @@ def long_planeteer_calls(array)
   # Your code here
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find do |i| #is this what is splitting up the array to the individ index positions?
+  cheese_types.include?(i)
 end
